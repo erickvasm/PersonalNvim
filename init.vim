@@ -8,7 +8,7 @@ set clipboard=unnamed
 set showcmd
 set ruler
 set cursorline
-set encoding=utf-8
+set encoding=utf8
 set showmatch
 set termguicolors
 set sw=2
@@ -26,15 +26,15 @@ call plug#begin()
 " THEME
 Plug 'morhetz/gruvbox'
 
-" ICONS
-Plug 'ryanoasis/vim-devicons' 
-
 " TOPBAR 
 Plug 'vim-airline/vim-airline'
 
 " TREE
 Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
+
+" ICONS
+Plug 'ryanoasis/vim-devicons' 
 
 " SYNTAX
 Plug 'sheerun/vim-polyglot'
@@ -70,9 +70,6 @@ let g:airline_section_z = ' %{strftime("%-I:%M %p")}'
 let g:airline_section_warning = ''
 let g:airline#extensions#tabline#enabled = 1 
 let g:airline#extensions#tabline#formatter = 'unique_tail'
-
-" SETTING NERDTree 
-let NERDTreeQuitOnOpen=1
 
 " CUSTOM MAPING
 let mapleader=","
