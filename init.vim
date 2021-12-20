@@ -126,7 +126,6 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
 
-
 " THEME TRANSPARENT
 function! TransparentBackground()
     highlight Normal guibg=NONE ctermbg=NONE
