@@ -44,7 +44,7 @@ Plug 'alvan/vim-closetag'
 Plug 'tpope/vim-surround'
 
 " AUTOCOMPLETE
-Plug 'sirver/ultisnips' # En windows da un error
+Plug 'sirver/ultisnips' " En windows da un error
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " TEST
