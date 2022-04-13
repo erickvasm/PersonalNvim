@@ -247,7 +247,21 @@ Ejecútese para instalar los complementos en el init.vim.
 * Actualizar plugins: ':PlugUpdate'
 * Eliminar plugins no utilizados: ':PlugClean'
 * Actualizar vim-plug en sí: ':P lugUpgrade'
- 
+
+
+Instalar Coc: 
+* coc emmet
+* coc html css
+* coc auto close
+
+### Extras
+
+```sh
+npm install -g live-server
+
+```
+
+
 ## Alias
  
 Esto se debe colocar en el archivo `.zshrc` o `bashrc`

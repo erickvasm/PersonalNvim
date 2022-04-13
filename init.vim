@@ -44,7 +44,7 @@ Plug 'alvan/vim-closetag'
 Plug 'tpope/vim-surround'
 
 " AUTOCOMPLETE
-Plug 'sirver/ultisnips'
+Plug 'sirver/ultisnips' # En windows da un error
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " TEST
@@ -63,6 +63,9 @@ Plug 'yggdroot/indentline'
 Plug 'preservim/nerdcommenter'
 
 call plug#end()
+
+" NERDTree
+let NERDTreeQuitOnOpen=1
 
 " AIRLINE
 let g:airline_powerline_fonts = 1
